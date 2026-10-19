@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { resume, siteConfig } from "@/app/content";
+import { DownloadIcon } from "@/app/components/Icons";
 
 export function Resume() {
   return (
@@ -18,9 +19,7 @@ export function Resume() {
             download={resume.fileName}
             className="inline-flex items-center justify-center gap-2 rounded-lg bg-zinc-900 dark:bg-white px-8 py-4 text-base font-medium text-white dark:text-zinc-900 hover:bg-zinc-700 dark:hover:bg-zinc-200 transition-colors"
           >
-            <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
-            </svg>
+            <DownloadIcon className="h-5 w-5" />
             Download Resume (PDF)
           </Link>
 

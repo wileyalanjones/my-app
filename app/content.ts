@@ -1,11 +1,11 @@
 export const siteConfig = {
-  name: "Your Name",
-  title: "Your Title — e.g., Full-Stack Developer",
+  name: "Wiley Jones",
+  title: "Data Scientist | Machine Learning Engineer | AI Engineer",
   tagline: "Building thoughtful software that solves real problems.",
-  email: "your.email@example.com",
-  github: "https://github.com/yourusername",
-  linkedin: "https://linkedin.com/in/yourusername",
-  resumePath: "/resume.pdf",
+  email: "wileyalanjones@gmail.com",
+  github: "https://github.com/wileyalanjones",
+  linkedin: "https://linkedin.com/in/wiley-jones-99bba3122/",
+  resumePath: "/wiley_jones_resume.pdf",
 };
 
 export const aboutText = [
@@ -17,11 +17,12 @@ export const aboutText = [
 export const projects = [
   {
     id: 1,
-    title: "Project One",
-    description: "A brief description of your first featured project. Explain what it does, the problem it solves, and your role in building it.",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL"],
+    title: "Golf Swing Sequencing",
+    description: "This is a CNN/LSTM Neural Network Project that can take in a video of a golf swing and return the frames that correspond to the eight sequences of the swing",
+    tech: ["Python", "Tensorflow", "Machine Learning"],
     githubUrl: "https://github.com/yourusername/project-one",
     liveUrl: "https://project-one.example.com",
+    videoId: "uc4Q1MGml6Y",
     featured: true,
   },
   {
@@ -63,5 +64,5 @@ export const skills = {
 export const resume = {
   title: "Resume",
   description: "Download my resume to learn more about my experience, education, and skills.",
-  fileName: "resume.pdf",
+  fileName: "wiley_jones_resume.pdf",
 };
