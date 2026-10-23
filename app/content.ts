@@ -1,7 +1,8 @@
 export const siteConfig = {
   name: "Wiley Jones",
-  title: "Data Scientist | Machine Learning Engineer | AI Engineer",
-  tagline: "Building thoughtful software that solves real problems.",
+  title: "Software Engineer | Machine Learning Engineer | AI Engineer",
+  tagline: "Building software and machine learning applications to solve real world problems.",
+  roles: ['Software Engineer', "Machine Learning Engineer", "Artificial Intelligence Engineer"],
   email: "wileyalanjones@gmail.com",
   github: "https://github.com/wileyalanjones",
   linkedin: "https://linkedin.com/in/wiley-jones-99bba3122/",
@@ -9,9 +10,8 @@ export const siteConfig = {
 };
 
 export const aboutText = [
-  "I'm a software developer passionate about building clean, maintainable, and scalable applications. With experience across the full stack, I enjoy turning complex problems into elegant solutions.",
-  "When I'm not coding, you can find me exploring new technologies, contributing to open source, or learning about system design and architecture.",
-  "I'm always open to interesting projects and opportunities — feel free to reach out!",
+  "Hi, I'm Wiley! I worked in Hollywood for almost a decade in Management and Production companies. However, as the streaming revolution swept across the industry, I became more fascinated with technology and its growing impact in all of our lives. In 2024, I enrolled in Oregon State University for Computer Science and fell in love with coding. Machine Learning first grabbed my interest hard, but I have recently have been enamored with traditional software engineering, especially with AI native solutions to old problems.",
+  "When I'm not coding I'm probably at the gym, on the golf course, or playing with my dog charles! There is a hidden link somewhere on the page to a picture of him. See if you can find it!",
 ];
 
 export const projects = [
@@ -45,7 +45,7 @@ export const projects = [
     id: 4,
     title: "Movie Guesser Game",
     description: "Movie Title Guesser game based on Contexto",
-    tech: ["Streamlit", "Embeddings",],
+    tech: ["Python", "Streamlit", "Embeddings",],
     githubUrl: "https://github.com/wileyalanjones/movie_guesser",
     liveUrl: "https://movieguesser-msebwvwkbhvznxqmcquz6m.streamlit.app/",
     featured: false,

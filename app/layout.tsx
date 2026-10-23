@@ -90,7 +90,7 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
       </head>
-      <body className="min-h-full flex flex-col bg-white dark:bg-zinc-950 text-zinc-900 dark:text-white">
+      <body className="min-h-full flex flex-col bg-white dark:bg-stone-950 text-stone-900 dark:text-white">
         {children}
       </body>
     </html>

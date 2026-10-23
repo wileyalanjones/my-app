@@ -28,14 +28,14 @@ export function Navbar() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-white/95 dark:bg-zinc-950/95 backdrop-blur-sm shadow-sm" : "bg-transparent"
+        scrolled ? "bg-white/95 dark:bg-stone-950/95 backdrop-blur-sm shadow-sm" : "bg-transparent"
       }`}
     >
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
         <div className="flex h-16 items-center justify-between">
           <Link
             href="#"
-            className="text-xl font-semibold text-zinc-900 dark:text-white"
+            className="text-xl font-semibold text-stone-900 dark:text-white"
             aria-label="Go to top"
           >
             {siteConfig.name}
@@ -46,7 +46,7 @@ export function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-sm font-medium text-zinc-600 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white transition-colors"
+                className="text-sm font-medium text-stone-600 dark:text-stone-300 hover:text-accent dark:hover:text-accent transition-colors"
               >
                 {link.label}
               </Link>
@@ -56,7 +56,7 @@ export function Navbar() {
           <div className="flex md:hidden items-center gap-4">
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="text-zinc-600 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white"
+              className="text-stone-600 dark:text-stone-300 hover:text-accent dark:hover:text-accent"
               aria-expanded={mobileMenuOpen}
               aria-controls="mobile-menu"
               aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
@@ -71,13 +71,13 @@ export function Navbar() {
         </div>
 
         {mobileMenuOpen && (
-          <div id="mobile-menu" className="md:hidden py-4 border-t border-zinc-200 dark:border-zinc-800">
+          <div id="mobile-menu" className="md:hidden py-4 border-t border-stone-200 dark:border-stone-800">
             <div className="flex flex-col gap-4">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="text-base font-medium text-zinc-600 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white"
+                  className="text-base font-medium text-stone-600 dark:text-stone-300 hover:text-accent dark:hover:text-accent"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {link.label}

@@ -21,7 +21,7 @@ export function VideoModal({ videoId }: { videoId: string }) {
         <>
             <button
                 onClick={() => setOpen(true)}
-                className="inline-flex items-center gap-1.5 text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-colors">
+                className="inline-flex items-center gap-1.5 text-sm font-medium text-stone-600 dark:text-stone-400 hover:text-accent dark:hover:text-accent transition-colors">
                 <PlayIcon className="h-4 w-4" />
                 Watch Demo
             </button>
@@ -36,7 +36,7 @@ export function VideoModal({ videoId }: { videoId: string }) {
                 >
                     <button
                     onClick={() => setOpen(false)}
-                    className="absolute -top-10 right-0 text-white hover:text-zinc-300"
+                    className="absolute -top-10 right-0 text-white hover:text-stone-300"
                     aria-label="Close video"
                     >
                     <CloseIcon className="h-6 w-6" />
